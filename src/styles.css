@@ -1,0 +1,98 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/* Style for the Log Out button */
+.logout-button {
+    width: 50%;
+    background-color: #dc3545;  /* 🔴 Red color for danger actions */
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #a71d2a;  /* Darker red on hover */
+}
+/* Buttons */
+button {
+    width: 50%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ✅ Style React Router Links */
+.Link {
+    text-decoration: none;  /* Remove underline */
+    color: #007bff;  /* Blue color */
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.Link:hover {
+    color: #0056b3;  /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+/* Order List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
